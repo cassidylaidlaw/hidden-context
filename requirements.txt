@@ -1,0 +1,10 @@
+transformers
+datasets>=1.17.0
+peft>=0.3.0
+sentencepiece
+diskcache==5.6.3
+pandas
+torch
+openai==0.28.1
+matplotlib==3.7.1
+scipy==1.10.1

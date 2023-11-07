@@ -1,0 +1,15 @@
+[tool.black]
+line-length = 88
+target-version = ['py39']
+include = '\.pyi?$'
+exclude = ''
+
+[tool.pytest.ini_options]
+timeout = 300
+testpaths = ["tests"]
+markers = ["uses_huggingface"]
+
+[tool.isort]
+profile = "black"
+known_first_party = ["hidden_context"]
+known_third_party = ["ray", "torch"]
