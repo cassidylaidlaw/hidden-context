@@ -1,6 +1,6 @@
-# Hidden Context in Preference Learning
+# Distributional Preference Learning
 
-This repository contains code for the paper [Understanding Hidden Context in Preference Learning: Consequences for RLHF](TODO). It includes an implementation of both variants of distributional preference learning (DPL) that we describe in the paper for training LLM-based reward models.
+This repository contains code for the paper [Distributional Preference Learning: Understanding and Accounting for Hidden Context in RLHF](https://cassidylaidlaw.com/links/hidden-context). It includes an implementation of both variants of distributional preference learning (DPL) that we describe in the paper for training LLM-based reward models.
 
 ## Installation
 
@@ -86,8 +86,8 @@ We use a variety of tools for maintaining code quality. To run automated checks,
 
 If you find this repository useful for your research, please cite our paper as follows:
 
-    @inproceedings{siththaranjan2023hidden,
-      title={Understanding Hidden Context in Preference Learning: Consequences for RLHF},
+    @inproceedings{siththaranjan2023dpl,
+      title={Distributional Preference Learning: Understanding and Accounting for Hidden Context in RLHF},
       author={Siththaranjan, Anand and Laidlaw, Cassidy and Hadfield-Menell, Dylan},
       booktitle={arXiv preprint},
       year={2023}
